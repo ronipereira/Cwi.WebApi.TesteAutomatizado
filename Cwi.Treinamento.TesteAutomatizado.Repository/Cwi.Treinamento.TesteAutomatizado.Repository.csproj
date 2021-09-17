@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cwi.Treinamento.TesteAutomatizado.Domain\Cwi.Treinamento.TesteAutomatizado.Domain.csproj" />
+    <ProjectReference Include="..\Cwi.Treinamento.TesteAutomatizado.Infra\Cwi.Treinamento.TesteAutomatizado.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
